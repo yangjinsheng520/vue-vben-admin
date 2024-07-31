@@ -9,8 +9,8 @@ let webhook =
 let jsonData = {
   msgtype: "text",
   text: {
-    content: "快去打卡",
-    mentioned_list: ["all"],
+    content: "小伙子们，快去打卡，开开心心上班",
+    mentioned_list: ["@all"],
   },
 };
 
