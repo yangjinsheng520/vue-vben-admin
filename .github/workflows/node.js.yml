@@ -6,8 +6,8 @@ name: Node.js CI
 on:
   workflow_dispatch:
   schedule:
-  - cron: '00 8,18 * * ?'
-  - cron: '20,30,40, 8,9,10,11,12,13,14,18 * * ?'
+  - cron: '00 8,18 * * *'
+  - cron: '20,30,40, 8,9,10,11,12,13,14,18 * * *'
   
 
 jobs:
